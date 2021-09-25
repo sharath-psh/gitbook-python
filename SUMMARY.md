@@ -1,31 +1,43 @@
 # Table of contents
 
 * [Easy Python 🐍](README.md)
-* [Datatypes](datatypes.md)
-* [Indexing and Slicing](indexing.md)
-* [Typecasting](typecasting.md)
-* [If/Else](if-else.md)
-* [For Loops](for.md)
-* [Functions](untitled.md)
-* [Introduction to OOPs](intro-to-oops.md)
-* [Class and Object Data](oops-data.md)
-* [Constructor](constructor.md)
-* [Object Method](object-method.md)
-* [Class Method](class-method.md)
-* [Static Method](static-method.md)
-* [Access Specifiers](access-specifier.md)
-* [Inheritance](inheritance.md)
-* [Single Inheritance](sl-inheritance.md)
-* [Types of Inheritance](types-of-inheri.md)
-* [Class Examples](class-examples.md)
-* [Exception Handling](exceptionhandling.md)
-* [File Handling](filehandling.md)
-* [SQLite 3](sqlite3.md)
-* [Generator and Iterator](geniter.md)
-* [List Comprehension](listcomp.md)
-* [Lambda / Anonymous Function](lambda.md)
-* [Map and Filter](map-and-filter.md)
-* [Function Decorators](funcdeco.md)
-* [JSON](json.md)
-* [Pickling](pickling.md)
+
+## Basics
+
+* [Datatypes](basics/datatypes.md)
+* [Indexing and Slicing](basics/indexing.md)
+* [Typecasting](basics/typecasting.md)
+* [Functions](basics/untitled.md)
+
+## Programming
+
+* [For Loops](programming/for.md)
+* [If/Else](programming/if-else.md)
+
+## OOPs
+
+* [Introduction to OOPs](oops/intro-to-oops.md)
+* [Class and Object Data](oops/oops-data.md)
+* [Constructor](oops/constructor.md)
+* [Object Method](oops/object-method.md)
+* [Class Method](oops/class-method.md)
+* [Static Method](oops/static-method.md)
+* [Access Specifiers](oops/access-specifier.md)
+* [Class Examples](oops/class-examples.md)
+* [Inheritance](oops/inheritance.md)
+* [Single Inheritance](oops/sl-inheritance.md)
+* [Types of Inheritance](oops/types-of-inheri.md)
+
+## Advanced
+
+* [Exception Handling](advanced/exceptionhandling.md)
+* [File Handling](advanced/filehandling.md)
+* [SQLite 3](advanced/sqlite3.md)
+* [Generator and Iterator](advanced/geniter.md)
+* [List Comprehension](advanced/listcomp.md)
+* [Lambda / Anonymous Function](advanced/lambda.md)
+* [Map and Filter](advanced/map-and-filter.md)
+* [Function Decorators](advanced/funcdeco.md)
+* [JSON](advanced/json.md)
+* [Pickling](advanced/pickling.md)
 
