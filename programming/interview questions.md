@@ -1,9 +1,10 @@
 # Interview Questions
 
 ## Basics
+
+1. Why Python? What is the version you’re working on?
 76.What is type casting?
 75.How do you convert the data from one type to another type?
-1. Why Python? What is the version you’re working on?
 3. Differentiate b/w List & Tuple.
 4. Can we perform indexing on sets?
 5. What is Dictionary? How it is a different from other packed data items or packed data types.
@@ -26,8 +27,8 @@
 73.Explain variable number of arguments in Python?
 74. What are Boolean data types?
 
-
 ## OOPs
+
 70.What is the output we will get when we print an Object?
 48. Does Python supports Object oriented principles? If yes. Explain.
 47.What is the static method? How do you create the static method?
@@ -42,6 +43,7 @@
 16. What is the values which is present in cls?
 
 ## Advanced
+
 71.How do you import a module from one file into another file?
 67. Explain Pass by value & Pass by Reference?
 63.Why do we us AS?
