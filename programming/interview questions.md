@@ -1,14 +1,22 @@
+# Interview Questions
+
+## Basics
 1. Why Python? What is the version you’re working on?
-2. What is Packing? Give an example
 3. Differentiate b/w List & Tuple.
 4. Can we perform indexing on sets?
-5. What is Dictionary? How it is a different from other packed data items or
-packed data types.
-6. What is Recursive Function?
-7. What is Lambda Function?
-8. Explain the concept of Functional Programming?
+5. What is Dictionary? How it is a different from other packed data items or packed data types.
+
+## OOPs
 9. What is class?
 10.What is Object?
+
+## Advanced
+6. What is Recursive Function?
+7. What is Lambda Function?
+
+## General
+8. Explain the concept of Functional Programming?
+2. What is Packing? Give an example
 11.What is class member?
 12.What are instance members?
 13.What is class method?
