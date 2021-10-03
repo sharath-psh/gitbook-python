@@ -2,49 +2,49 @@
 
 ## Basics
 
-1. Why Python? What is the version you’re working on?
+* Why Python? What is the version you’re working on?
 
-   76.What is type casting?
+  76.What is type casting?
 
-   75.How do you convert the data from one type to another type?
+  75.How do you convert the data from one type to another type?
 
-2. Differentiate b/w List & Tuple.
-3. Can we perform indexing on sets?
-4. What is Dictionary? How it is a different from other packed data items or packed data types.
-5. Why Python is called as Dynamic typed programming language?
-6. What are different types of functions available in Python?
+* Differentiate b/w List & Tuple.
+* Can we perform indexing on sets?
+* What is Dictionary? How it is a different from other packed data items or packed data types.
+* Why Python is called as Dynamic typed programming language?
+* What are different types of functions available in Python?
 
-   46.How do you find out the number of data items present in the collection of data items?
+  46.How do you find out the number of data items present in the collection of data items?
 
-   49.Explain the data types in Python?
+  49.Explain the data types in Python?
 
-7. What is the use of RANGE in PYTHON?
+* What is the use of RANGE in PYTHON?
 
-   56.Does Python supports SWITCH statement?
+  56.Does Python supports SWITCH statement?
 
-   57.Explain the looping in Python?
+  57.Explain the looping in Python?
 
-   59.Differentiate b/w Range & XRange.
+  59.Differentiate b/w Range & XRange.
 
-   60.What are membership operators? Why do we use it?61.What is the use of IS operator?
+  60.What are membership operators? Why do we use it?61.What is the use of IS operator?
 
-   62.What is Floor division operator?
+  62.What is Floor division operator?
 
-   64.How to concatenate two strings?
+  64.How to concatenate two strings?
 
-8. What is the use of JOIN function?
+* What is the use of JOIN function?
 
-   66.Explain Split?
+  66.Explain Split?
 
-9. Explain deep & shallow copy?
+* Explain deep & shallow copy?
 
-   69.How can we achieve shallow copy in Python?
+  69.How can we achieve shallow copy in Python?
 
-   72.What is the use of None in Python?
+  72.What is the use of None in Python?
 
-   73.Explain variable number of arguments in Python?
+  73.Explain variable number of arguments in Python?
 
-10. What are Boolean data types?
+* What are Boolean data types?
 
 ## OOPs
 
