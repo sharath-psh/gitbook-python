@@ -1,8 +1,8 @@
-# Datatypes
+# DataTypes
 
 ## Datatypes
 
-```scheme
+```text
 graph TD
     Main(DataTypes) --> B(Single Valued DT)
     Main(DataTypes) --> C(Collection DT)
@@ -335,12 +335,21 @@ File "<pyshell#25>", line 1, in <module>
     s[0]
 TypeError: 'set' object is not subscriptable
 
-# set cannot be modified
+# set cannot be modified using indexing BUT >>
 >>> s[0] = 20
 Traceback (most recent call last):
   File "<pyshell#4>", line 1, in <module>
     se[0] = 2
 TypeError: 'set' object does not support item assignment
+
+# set can be modified using inuild function
+>>> se = {1,2,3}
+>>> se.add(4)
+>>> se
+{1, 2, 3, 4}
+>>> se.remove(1)
+>>> se
+{2, 3, 4}
 ```
 
 ### Dictionary
@@ -422,7 +431,7 @@ dict_keys(['a', 'b', 'c'])
 | String | ✅ | ❌ |
 | List | ✅ | ✅ |
 | Tuple | ✅ | ❌ |
-| Set | ❌ | ❌ |
+| Set | ❌ | ✅ |
 | Dictionary | ✅ | ✅ |
 
 **Note:**
