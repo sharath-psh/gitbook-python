@@ -3,10 +3,8 @@
 ## Basics
 
 * Why Python? What is the version you’re working on?
-
-  76.What is type casting?
-
-  75.How do you convert the data from one type to another type?
+* What is type casting?
+* How do you convert the data from one type to another type?
 
 * Differentiate b/w List & Tuple.
 * Can we perform indexing on sets?
