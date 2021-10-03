@@ -4,7 +4,7 @@
 
 ## Basics
 
-* [Datatypes](basics/datatypes.md)
+* [DataTypes](basics/datatypes.md)
 * [Indexing and Slicing](basics/indexing.md)
 * [Typecasting](basics/typecasting.md)
 * [Functions](basics/untitled.md)
@@ -13,6 +13,7 @@
 
 * [For Loops](programming/for.md)
 * [If/Else](programming/if-else.md)
+* [Interview Questions](programming/intques.md)
 
 ## OOPs
 
