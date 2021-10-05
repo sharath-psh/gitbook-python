@@ -21,7 +21,6 @@
 1. Explain the looping in Python?
 2. What is the use of RANGE in PYTHON?
 3. Differentiate b/w Range & XRange.
-4. Does Python supports SWITCH statement?
 
 ### Functions
 
@@ -91,11 +90,24 @@
 
 ## General
 
-1. Why Python? What is the version you’re working on?
-2. What is Interpreter?
-3. Why Python is called as Dynamic typed programming language?
-4. Explain the concept of Functional Programming?
-5. How is Python code executed and in what order?
-6. What is Packing? Give an example
-7. What is the use of None in Python?
-8. What is operator loading? How do you achieve it?
+1. Explain the concept of Functional Programming?
+2. What is Packing? Give an example
+3. What is the values stored in **name**?
+4. Explain the priority of execution?
+5. What is overloading? How do you achieve it?
+6. What is operator loading? How do you achieve it?
+7. What is method overriding?
+8. What is the use of format function?
+9. Explain the modules based on its functionalities. Sys & OS modules?
+10. How do you write a data into a file?
+11. How do you read the data from a file?
+12. How do you tell the position of the cursor in a file?
+13. How do you import a class of one file into another file?
+14. What are modules?
+15. What is the use of WITH?
+16. How do we get the file number?
+17. Explain the modes of operation done on File?
+18. Does Python supports SWITCH statement?
+19. Why Python? What is the version you’re working on?
+20. Why Python is called as Dynamic typed programming language?
+21. What is the use of None in Python?

@@ -14,6 +14,7 @@
 * [For Loops](programming/for.md)
 * [If/Else](programming/if-else.md)
 * [Interview Questions](programming/intques.md)
+* [Coding Questions](programming/codingques.md)
 
 ## OOPs
 

@@ -138,8 +138,7 @@ print(obj.a)
 - Instance : Refers to the object created from the class.
 - Method : Functions created inside a class.
 - Attribute : Refers to the object or class data.
-- Initialiser/Constructor/Init method : constructer\_\_init\_\_ is a reserved method which is created in the class beginning to help us create objects.
-  It helps us in creating object data.
+- Initialiser/Constructor/Init method : constructer\_\_init\_\_ is a reserved method which is created in the class beginning to help us create objects.It helps us in creating object data.
 - self : refers to the address of the object. must be used when we store object related data. -
 - private : protecting data by not allowing to access it outside the class.
 - encapsulation : refers to the hiding of data
