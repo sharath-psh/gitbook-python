@@ -2,20 +2,20 @@
 
 ## What is OOP?
 
-- Python supports scripting, functions and also object oriented programming.
-- Object Oriented Programming is where we write our code in the form of classes and objects.
-- Where objects represent any real world entity with data and functions.
-- Classes act as a blueprint for the objects.
+* Python supports scripting, functions and also object oriented programming.
+* Object Oriented Programming is where we write our code in the form of classes and objects.
+* Where objects represent any real world entity with data and functions.
+* Classes act as a blueprint for the objects.
 
 ## Classes and Data are classified as follows
 
 ### Data
 
-- Class Data : Data which is generic and applicable to all the objects.
+* Class Data : Data which is generic and applicable to all the objects.
 
   Generic data.
 
-- Object Data : Data which is specific and applicable only to the objects.
+* Object Data : Data which is specific and applicable only to the objects.
 
   Instance/Object variables/data.
 
@@ -23,14 +23,14 @@
 
 ### Functions/Methods
 
-- Object Method : Functions which are specific only for the objects.
+* Object Method : Functions which are specific only for the objects.
 
   Instance method/function.
 
   Behaviour of the object.
 
-- Class Method : Function designed for modifying class data.
-- Static Method : A simple function irrespective of classes or objects calling.
+* Class Method : Function designed for modifying class data.
+* Static Method : A simple function irrespective of classes or objects calling.
 
 ### Examples of Class
 
@@ -107,18 +107,18 @@ print(calculateGPA(students[jane][grades]))
 
 ## Why is OOPs used?
 
-- Organize code and classify data and functions providing a clear structure.
-- Easy maintainence and modification.
-- Reduce code, by enabling code reusability.
-- Inheritance, which helps us to inherit data from one class to another class.
-- Encapsulation, where we secure data by implementing private variables.
+* Organize code and classify data and functions providing a clear structure.
+* Easy maintainence and modification.
+* Reduce code, by enabling code reusability.
+* Inheritance, which helps us to inherit data from one class to another class.
+* Encapsulation, where we secure data by implementing private variables.
 
 ## Where do we use OOPs?
 
-- When we have a large project and the codebase needs to be organised.
-- Enabling us with easy maintainance and modification
-- Decreasing redundant data by using OOPs concepts like inheritance, class data, objects.
-- Protecting data which should not be accessed outside the class. Ex: keys, pins, passwords, private variables.
+* When we have a large project and the codebase needs to be organised.
+* Enabling us with easy maintainance and modification
+* Decreasing redundant data by using OOPs concepts like inheritance, class data, objects.
+* Protecting data which should not be accessed outside the class. Ex: keys, pins, passwords, private variables.
 
 ## How to create a class?
 
@@ -133,14 +133,17 @@ print(obj.a)
 
 ## Glossary
 
-- Class : Blueprint to create the classes.
-- Object : Real world entity created using the class.
-- Instance : Refers to the object created from the class.
-- Method : Functions created inside a class.
-- Attribute : Refers to the object or class data.
-- Initialiser/Constructor/Init method : constructer\_\_init\_\_ is a reserved method which is created in the class beginning to help us create objects.
+* Class : Blueprint to create the classes.
+* Object : Real world entity created using the class.
+* Instance : Refers to the object created from the class.
+* Method : Functions created inside a class.
+* Attribute : Refers to the object or class data.
+* Initialiser/Constructor/Init method : constructer\_\_init\_\_ is a reserved method which is created in the class beginning to help us create objects.
+
   It helps us in creating object data.
-- self : refers to the address of the object. must be used when we store object related data. -
-- private : protecting data by not allowing to access it outside the class.
-- encapsulation : refers to the hiding of data
-- inheritance : where we are able to provide the code from one class to another.
+
+* self : refers to the address of the object. must be used when we store object related data. -
+* private : protecting data by not allowing to access it outside the class.
+* encapsulation : refers to the hiding of data
+* inheritance : where we are able to provide the code from one class to another.
+
