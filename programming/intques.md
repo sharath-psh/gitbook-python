@@ -36,8 +36,10 @@
 9. How do you send parametarized functions?
 10. What is Recursive Function?
 11. What is Lambda Function?
-12. What is overloading? How do you achieve it?
-13. What is method overriding?
+12. What is map/filter?
+13. What is overloading? How do you achieve it?
+14. What is method overriding?
+15. What is pass keyword?
 
 ## OOPs
 
@@ -49,7 +51,7 @@
 6. What is class member?
 7. What is Object?
 8. What are instance members?
-9. Why do we use init method?
+9. What is init method?
 10. Differentiate b/w member functions & class methods.
 11. Why do we use self? And what value it has?
 12. Is the name self is compulsory in member functions? Or can we give any other name?
@@ -68,23 +70,24 @@
 2. Why do we use RAISE?
 3. What is the use of ASSERT?
 4. What is the use of Finally in exception handling? How it is different from Except?
-5. How to create user defined iterators?
-6. Differentiate b/w iterators & generators
-7. What is iterator? How do you construct user defined iterator?
-8. What are Generators? How it is different from iterators?
-9. What is Decorators? Give an example.
-10. How do you import a module from one file into another file?
-11. Why do we us AS?
-12. What is JSON? Explain how do you convert normal format into JSON format?
-13. How do you import a class of one file into another file?
-14. What are modules?
-15. Explain the modules based on its functionalities. sys & OS modules?
-16. How do you write a data into a file?
-17. How do you read the data from a file?
-18. How do you tell the position of the cursor in a file?
-19. What is the use of WITH?
-20. How do we get the file number?
-21. Explain the modes of operation done on File?
+5. What are decorators in python? How do you design one?
+6. How to create user defined iterators?
+7. Differentiate b/w iterators & generators
+8. What is iterator? How do you construct user defined iterator?
+9. What are Generators? How it is different from iterators?
+10. What is Decorators? Give an example.
+11. How do you import a module from one file into another file?
+12. Why do we us AS?
+13. What is JSON? Explain how do you convert normal format into JSON format?
+14. How do you import a class of one file into another file?
+15. What are modules?
+16. Explain the modules based on its functionalities. sys & OS modules?
+17. How do you write a data into a file?
+18. How do you read the data from a file?
+19. How do you tell the position of the cursor in a file?
+20. What is the use of WITH?
+21. How do we get the file number?
+22. Explain the modes of operation done on File?
 
 ## General
 
