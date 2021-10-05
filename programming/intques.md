@@ -87,6 +87,8 @@
 20. What is the use of WITH?
 21. How do we get the file number?
 22. Explain the modes of operation done on File?
+23. What is Pickling and Unpickling?
+24. What is help() and dir()?
 
 ## General
 
