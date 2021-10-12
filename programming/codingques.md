@@ -2,6 +2,18 @@
 
 ## Very Easy
 
+---
+
+- Palindrome or not
+
+```python
+s = 'madam'
+if s == s[::-1]:
+    print('Palindrome')
+```
+
+---
+
 - sum of 3 numbers, if all 3 same then return 3 times of it
 
 ```python
@@ -57,6 +69,73 @@ print(count)
 ---
 
 ## Basics
+
+---
+
+- Prime number or not
+
+```python
+num = 7
+flag = False
+for i in range(2, num):
+    if num % i == 0:
+        flag = True
+        break
+
+if flag:
+    print(num, "is not a prime number")
+else:
+    print(num, "is a prime number")
+
+
+# ------------------------
+
+flag = False
+for i in range(2, num//2+1):
+    if num % i == 0:
+        flag = True
+        break
+
+if flag:
+    print(num, "is not a prime number")
+else:
+    print(num, "is a prime number")
+```
+
+---
+
+- Sum of n natural numbers
+
+```python
+n = 10
+sum = 0
+for i in range(1,n+1):
+    sum += i
+print(sum)
+```
+
+- Sum of n even numbers
+
+```python
+n = 10
+sum = 0
+for i in range(1,n+1):
+    if i%2 == 0:
+        sum = sum + i
+print(sum)
+```
+
+- Average of n natural numbers
+
+```python
+n = 10
+for i in range(1,n+1):
+    sum = sum + i
+avg = sum/n
+print(avg)
+```
+
+---
 
 - Count the number of digits in a number
 
@@ -250,6 +329,21 @@ for i in range(1,101):
 
 ## Medium
 
+---
+
+- Reverse the words in the string
+
+```python
+s = 'hello how are you'
+ls = s.split()
+nl = []
+for i in ls:
+    nl.append(i[::-1])
+print(nl)
+```
+
+---
+
 - Collatz Conjecture
 
 ```python
@@ -317,7 +411,7 @@ flattened = [x for temp in my_list for x in temp]
 
 ---
 
-# Mini Projects
+## Mini Projects
 
 ```python
 from random import shuffle
@@ -332,4 +426,115 @@ if guess == cl.index('1')+1:
     print('correct')
 else:
     print('wrong')
+```
+
+---
+
+- Password Generator
+
+```python
+import string
+import random
+
+def genpass():
+    sl = string.ascii_lowercase
+    su = string.ascii_uppercase
+    ss = string.punctuation
+    sn = string.digits
+    sc = sl+su+ss+sn
+
+    fs = ''.join((random.sample(sc,k=3)))
+    print(fs)
+
+genpass()
+```
+
+---
+
+- Rock Paper Scissor game
+
+```python
+import random
+import sys
+
+il = ['rock','paper','scissor']
+
+def printpicked():
+    print('computer picked :' + cchoice + '\nuser picked : ' + uchoice)
+
+def won():
+    print('YOU WIN! Congratsssss')
+    sys.exit()
+
+def lost():
+    print('Computer won! LOOOOSERRRRR')
+    sys.exit()
+
+
+while True:
+    # uchoice = 'r'
+    uchoice = input('Enter rock paper or scissor \nEnter option as : ("r","p","s") \nPress "q" to quit \n-->')
+    cchoice = random.choice(il)
+
+
+    if uchoice not in ('r','s','p','q'):
+        print('Try again')
+
+
+    if uchoice == 'q':
+        sys.exit()
+
+    elif cchoice == uchoice:
+        printpicked()
+        print('Samesies!!! Play again ')
+
+    elif uchoice == 'r':
+        if cchoice == 'scissor':
+            printpicked()
+            won()
+
+        elif cchoice == 'paper':
+            printpicked()
+            lost()
+
+    elif uchoice == 'p':
+        if cchoice == 'rock':
+            printpicked()
+            won()
+        elif cchoice == 'scissor':
+            printpicked()
+            lost()
+    elif uchoice == 's':
+        if cchoice == 'paper':
+            printpicked()
+            won()
+        elif cchoice == 'rock':
+            printpicked()
+            lost()
+
+    else :
+        sys.exit()
+```
+
+---
+
+- Create a list that behaves like a set. A list which doesnt allow duplicates
+
+```python
+li = []
+def adder(x):
+    if x not in li:
+        li.append(x)
+        print(x,'added')
+    else:
+        print(x,'present!')
+def remover(x):
+    li.remove(x)
+    print(x,'removed')
+
+adder(2)
+adder(4)
+# remover(2)
+
+print(li)
 ```
