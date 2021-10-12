@@ -93,6 +93,26 @@ print(len(n))
 
 ---
 
+- WAP to find the factorial of given number
+
+```python
+n = 5
+f = 1
+for i in range(1,n+1):
+    f = f * i
+print(f)
+
+# ---------
+# using recurssion
+def fact(n):
+    if n == 0:
+        return 1
+    return n * fact(n-1)
+print(fact(5))
+```
+
+---
+
 - Remove duplicates in a list
 
 ```python
@@ -137,6 +157,95 @@ for i in li:
     else:
         ncount = ncount + 1
 print(pcount,ncount)
+```
+
+---
+
+- WAP to find largest number in a list
+
+```python
+import random
+li = [random.randint(1,11) for i in range(1,6)]
+print(li)
+max = li[0]
+for i in li:
+    if i>max:
+        max = i
+    else:
+        continue
+print(max)
+```
+
+---
+
+- WAP to find the smallest number in the list
+
+```python
+min = li[0]
+for i in li:
+    if i<min:
+        min = i
+print(min)
+```
+
+---
+
+- WAP to find the 2nd largest in the list
+
+```python
+import random
+li = [random.randint(1,11) for i in range(1,6)]
+print(li)
+li = list(set(li))
+li.sort()
+print(li)
+print(li[-2])
+```
+
+---
+
+- Combine two lists
+
+```python
+l1 = [1,2,3]
+l2 = [1,2,3]
+lc = []
+for i in l2:
+    lc.append(i)
+for i in l1:
+    lc.append(i)
+print(lc)
+```
+
+---
+
+- Add two lists
+
+```python
+l1 = [1,2,3]
+l2 = [1,2,3]
+
+def adder(a,b):
+    return a+b
+
+sl = list(map(adder,l1,l2))
+print(sl)
+```
+
+---
+
+- FizzBuzz
+
+```python
+for i in range(1,101):
+    if i%3 == 0 and i%5 == 0 :
+        print('FizzBuzz')
+    elif i%3 == 0 :
+        print('Fizz')
+    elif i%5 == 0:
+        print('Buzz')
+    else:
+        print(i)
 ```
 
 ## Medium
