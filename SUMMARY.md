@@ -11,8 +11,8 @@
 
 ## Programming
 
-* [For Loops](programming/for.md)
 * [If/Else](programming/if-else.md)
+* [For Loops](programming/for.md)
 * [Interview Questions](programming/intques.md)
 * [Coding Questions](programming/codingques.md)
 
@@ -42,4 +42,3 @@
 * [Function Decorators](advanced/funcdeco.md)
 * [JSON](advanced/json.md)
 * [Pickling](advanced/pickling.md)
-
