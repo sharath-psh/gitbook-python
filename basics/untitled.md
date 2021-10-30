@@ -422,4 +422,3 @@ adder(4)
 remover(2)
 print(li)
 ```
-
